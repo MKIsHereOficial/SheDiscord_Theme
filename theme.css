@@ -1,0 +1,151 @@
+:root {
+    --bg-img: url('https://media.discordapp.net/attachments/852965720164794369/938500392822644806/7402bcc594a72844f62b8ac4a5342ece.gif?width=719&height=341');
+}
+
+/* BACKGROUND */
+
+.bg-1QIAus {
+    background: var(--bg-img);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+}
+
+.container-ZMc96U,
+.searchBar-3TnChZ {
+    background: rgba(0, 0, 0, .2) !important;
+    backdrop-filter: blur(10px) !important;
+}
+
+.header-3OsQeK,
+.container-1NXEtd,
+.container-2cd8Mz,
+.sidebar-1tnWFu,
+.privateChannels-oVe7HL,
+.scroller-WSmht3,
+.chat-2ZfjoI {
+    background: rgba(0, 0, 0, .1) !important;
+    backdrop-filter: blur(10px) !important;
+}
+
+/* GENERAL POPOUT MENU */
+
+.menu-1QACrS {
+    background: rgba(0, 0, 0, .85) !important;
+    border: 1px solid white;
+}
+
+.wrapper-1HIH0j {
+    background: rgba(0, 0, 0, .3) !important;
+    backdrop-filter: blur(10px) !important;
+    border: 1px solid white;
+}
+
+.form-3gdLxP::before {
+    display: none;
+    background: transparent !important;
+}
+
+.children-3xh0VB:after {
+    background: black;
+}
+
+/* MENTIONED MESSAGE */
+
+.mentioned-Tre-dv {
+    background: rgba(79, 139, 249, .2);
+}
+
+.mouse-mode.full-motion .mentioned-Tre-dv:hover {
+    background: rgba(79, 139, 249, .45);
+}
+
+.mentioned-Tre-dv:before {
+    background: rgba(79, 139, 249, 1);
+}
+
+/* MEMBERS LIST */
+
+.container-2o3qEW {
+    background: transparent;
+    backdrop-filter: blur(10px);
+}
+
+.members-3WRCEx,
+.members-3WRCEx>div {
+    background: rgba(0, 0, 0, .1);
+}
+
+/* MENU ON MESSAGE HOVER */
+
+.wrapper-2vIMkT {
+    background: rgba(0, 0, 0, .5) !important;
+    backdrop-filter: blur(20px);
+    border: 1px solid white;
+    border-radius: 10px !important;
+}
+
+/* DIRECT MESSAGES LIST */
+
+.privateChannels-oVe7HL {
+    height: 100vh !important;
+}
+
+/* BOTTOM PANEL */
+
+.panels-3wFtMD {
+    background: rgba(0, 0, 0, .3) !important;
+    backdrop-filter: blur(50px);
+}
+
+/* DIVIDER TEXT (DATE) */
+
+.content-3spvdd {
+    background: rgba(0, 0, 0, .75);
+    border-radius: .2rem;
+    padding: .25rem .3rem;
+}
+
+/* BLOCKQUOTE */
+
+.blockquoteDivider-363utW {
+    background: rgba(79, 139, 249, 1);
+    border-radius: .12rem !important;
+}
+
+/* USER POPOUT */
+
+.userPopout-2j1gM4 {
+    background: rgba(0, 0, 0, .1) !important;
+    backdrop-filter: blur(20px);
+}
+
+.bodyInnerWrapper-2bQs1k {
+    background: rgba(0, 0, 0, 0);
+}
+
+.divider-1wtgZ3 {
+    background: black;
+    border-radius: 2rem;
+}
+
+.avatar-2Vndt_ {
+    border: 6px solid rgba(0, 0, 0, .1) !important;
+    border-color: transparent !important;
+}
+
+/* AUTOCOMPLETE POPUP */
+
+.autocomplete-3NRXG8 {
+    background: rgba(0, 0, 0, .7) !important;
+    backdrop-filter: blur(30px) !important;
+    border: 1px solid white;
+}
+
+.selectable-1MM9tu {
+    transition: 400ms ease;
+}
+
+.selected-3H3-RC {
+    background: rgba(0, 0, 0, .7) !important;
+    border: 1px solid white;
+}
