@@ -1,5 +1,7 @@
 # SheDiscord_Theme
 
 ###
-<a href="https://raw.githubusercontent.com/MKIsHereOficial/SheDiscord_Theme/main/theme.css" download>Download</a>
+Download the theme [here](https://shediscord.mkishereoficial.repl.co/)
 ###
+
+~ MinnaTheQueen, with love
