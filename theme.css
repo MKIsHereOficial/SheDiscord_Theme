@@ -7,15 +7,20 @@
 */
 
 :root {
-    --bg-img: url('https://media.discordapp.net/attachments/852965720164794369/938500392822644806/7402bcc594a72844f62b8ac4a5342ece.gif?width=719&height=341');
+    --bg: url('https://media.discordapp.net/attachments/852965720164794369/938500392822644806/7402bcc594a72844f62b8ac4a5342ece.gif?width=719&height=341');
+    --reduced-motion-bg: url('https://media.discordapp.net/attachments/852965720164794369/938866412091486248/wp9378861.png');
 }
 
 /* BACKGROUND */
 
 .bg-1QIAus {
-    background: var(--bg-img);
+    background: var(--bg);
     background-repeat: no-repeat;
     background-size: 100vw 100vh;
+}
+
+.reduce-motion .bg-1QIAus {
+    background: var(--reduced-motion-bg) !important;
 }
 
 .container-ZMc96U,
