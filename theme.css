@@ -15,12 +15,14 @@
 
 .bg-1QIAus {
     background: var(--bg);
-    background-repeat: no-repeat;
-    background-size: 100vw 100vh;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
 }
 
 .reduce-motion .bg-1QIAus {
     background: var(--reduced-motion-bg) !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
 }
 
 .container-ZMc96U,
