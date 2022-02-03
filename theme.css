@@ -148,6 +148,16 @@
     border-color: transparent !important;
 }
 
+.role-2TIOKu {
+    background: rgba(0,0,0,.35) !important;
+    backdrop-filter: blur(40px);
+}
+
+.roleCircle-1EgnFN[style="background-color: rgb(185, 187, 190);"] {
+    background: rgba(0,0,0,.5) !important;
+    backdrop-filter: blur(50px);
+}
+
 /* AUTOCOMPLETE POPUP */
 
 .autocomplete-3NRXG8 {
