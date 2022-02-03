@@ -157,3 +157,23 @@
     background: rgba(0, 0, 0, .7) !important;
     border: 1px solid white;
 }
+
+/* CHANNEL TEXT AREA */
+
+.replyBar-1oi75v,
+.channelTextArea-1FufC0 {
+    background: transparent !important;
+}
+
+.attachedBars-2BCP3l,
+.scrollableContainer-15eg7h {
+    background: rgba(0,0,0,.75) !important;
+    backdrop-filter: blur(30px);
+}
+
+/* BOTTOM UPLOAD BAR */
+
+.upload-vLbqu- {
+    background: rgba(0,0,0,.4) !important;
+    backdrop-filter: blur(30px) !important;
+}
