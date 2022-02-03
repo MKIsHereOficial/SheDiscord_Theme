@@ -6,6 +6,8 @@
  * @website https://github.com/MKIsHereOficial/SheDiscord_Theme
 */
 
+@import url('https://shediscord.mkishereoficial.repl.co/emojifont.css');
+
 :root {
     --bg: url('https://media.discordapp.net/attachments/852965720164794369/938500392822644806/7402bcc594a72844f62b8ac4a5342ece.gif?width=719&height=341');
     --reduced-motion-bg: url('https://media.discordapp.net/attachments/897614062689587221/938868486061576302/wp9585556.png');
@@ -201,4 +203,25 @@
 .markup-eYLPri code {
     background: rgba(0,0,0,.75) !important;
     backdrop-filter: blur(70px) !important;
+}
+
+/* CHANNEL NAMES */
+
+.channelName-3KPsGw {
+    font-family: "Segoe UI Emoji W11", var(--font-primary) !important;
+}
+
+/* ACTIVITY TEXT */
+
+.activityText-ev7Z1T,
+.activityText-1rR-8O {
+    font-family: "Segoe UI Emoji W11", var(--font-primary) !important;
+}
+
+/* NITRO STORE */
+
+.scroller-29cQFV,
+.applicationStore-2nk7Lo {
+    background: rgba(0, 0, 0, .35) !important;
+    backdrop-filter: blur(10px) !important;
 }
