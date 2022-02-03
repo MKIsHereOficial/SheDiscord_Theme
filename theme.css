@@ -184,3 +184,10 @@
     background: rgba(0,0,0,.4) !important;
     backdrop-filter: blur(30px) !important;
 }
+
+/* MARKUP CODE */
+
+.markup-eYLPri code {
+    background: rgba(0,0,0,.75) !important;
+    backdrop-filter: blur(70px) !important;
+}
