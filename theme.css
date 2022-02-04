@@ -205,8 +205,9 @@
     backdrop-filter: blur(70px) !important;
 }
 
-/* CHANNEL NAMES */
+/* CHANNEL & CATEGORY NAMES */
 
+.overflow-1wOqNV,
 .channelName-3KPsGw {
     font-family: "Segoe UI Emoji W11", var(--font-primary) !important;
 }
@@ -224,4 +225,21 @@
 .applicationStore-2nk7Lo {
     background: rgba(0, 0, 0, .35) !important;
     backdrop-filter: blur(10px) !important;
+}
+
+/* HIDDEN SPOILER TEXT */
+
+.spoilerText-27bIiA.hidden-3B-Rum {
+    background: rgba(0,0,0,.5) !important;
+}
+
+/* EMBEDS */
+
+.embedFull-1HGV2S[style="border-color: hsl(223, calc(var(--saturation-factor, 1) * 6.9%), 19.8%);"] {
+    border-color: transparent !important;
+}
+
+.embedFull-1HGV2S {
+    background: rgba(0,0,0,.5) !important;
+    backdrop-filter: blur(60px) !important;
 }
