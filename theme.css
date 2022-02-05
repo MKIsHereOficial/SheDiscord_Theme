@@ -160,6 +160,11 @@
     backdrop-filter: blur(50px);
 }
 
+.customStatusText-3wj79x,
+.textRow-1sENuL {
+    font-family: "Segoe UI Emoji W11", var(--font-primary) !important;
+}
+
 /* AUTOCOMPLETE POPUP */
 
 .autocomplete-3NRXG8 {
@@ -191,6 +196,10 @@
     backdrop-filter: blur(30px);
 }
 
+.placeholder-1_mJY1 {
+    font-family: "Segoe UI Emoji W11", var(--font-primary) !important;
+}
+
 /* BOTTOM UPLOAD BAR */
 
 .upload-vLbqu- {
@@ -206,6 +215,13 @@
 }
 
 /* CHANNEL & CATEGORY NAMES */
+
+.title-17SveM {
+    font-family: "Segoe UI Emoji W11", var(--font-primary) !important;
+}
+.children-3xh0VB::after {
+    background: transparent !important;
+}
 
 .overflow-1wOqNV,
 .channelName-3KPsGw {
@@ -235,11 +251,34 @@
 
 /* EMBEDS */
 
-.embedFull-1HGV2S[style="border-color: hsl(223, calc(var(--saturation-factor, 1) * 6.9%), 19.8%);"] {
+.embedFull-1HGV2S[style*="border-color: hsl(223, calc(var(--saturation-factor, 1) * 6.9%), 19.8%);"] {
     border-color: transparent !important;
 }
 
 .embedFull-1HGV2S {
     background: rgba(0,0,0,.5) !important;
     backdrop-filter: blur(60px) !important;
+}
+
+/* @me right bar */
+
+.itemCard-3Etziu {
+    background: rgba(0,0,0,.35) !important;
+    backdrop-filter: blur(30px) !important;
+}
+
+.scroller-hE2gWq {
+    background: transparent;
+    
+}
+
+/* LEFT GUILDS BAR */
+
+.wrapper-1_HaEi {
+    background: transparent !important;
+}
+
+.scroller-3X7KbA {
+    background: rgba(0,0,0,.35) !important;
+    backdrop-filter: blur(40px);
 }
