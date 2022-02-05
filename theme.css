@@ -265,10 +265,26 @@
 .itemCard-3Etziu {
     background: rgba(0,0,0,.35) !important;
     backdrop-filter: blur(30px) !important;
+    border-color: rgba(255, 255, 255, .45) !important;
 }
 
+.inset-SbsSFp {
+    background: transparent !important;
+}
+
+.section-3G9aLW {
+    background: rgba(0,0,0,.25) !important;
+    border: 1px solid rgba(255,255,255,.15);
+}
+
+.container-1oAagU {
+    background: rgba(0,0,0,.35) !important;
+    backdrop-filter: blur(40px);
+}
+
+.nowPlayingColumn-1eCBCN,
 .scroller-hE2gWq {
-    background: transparent;
+    background: transparent !important;
     
 }
 
