@@ -160,6 +160,8 @@
     backdrop-filter: blur(50px);
 }
 
+.username-3JLfHz,
+.nickname-t08Mck,
 .customStatusText-3wj79x,
 .textRow-1sENuL {
     font-family: "Segoe UI Emoji W11", var(--font-primary) !important;
@@ -214,7 +216,7 @@
     backdrop-filter: blur(70px) !important;
 }
 
-/* CHANNEL & CATEGORY NAMES */
+/* NAMES (CHANNEL/CATEGORY/USER) */
 
 .title-17SveM {
     font-family: "Segoe UI Emoji W11", var(--font-primary) !important;
@@ -225,6 +227,10 @@
 
 .overflow-1wOqNV,
 .channelName-3KPsGw {
+    font-family: "Segoe UI Emoji W11", var(--font-primary) !important;
+}
+
+.name-3Vmqxm {
     font-family: "Segoe UI Emoji W11", var(--font-primary) !important;
 }
 
@@ -297,4 +303,31 @@
 .scroller-3X7KbA {
     background: rgba(0,0,0,.35) !important;
     backdrop-filter: blur(40px);
+}
+
+.folder-241Joy {
+    background: transparent !important;
+}
+
+.expandedFolderBackground-1kSAf6 {
+    background: rgba(255,255,255,.15) !important;
+}
+
+.collapsed-uGXEbi {
+    background: rgba(255,255,255,0) !important;
+}
+
+/* REACTIONS */
+
+.reaction-2A2y9y {
+    background: rgba(0,0,0,.35);
+}
+
+.reaction-2A2y9y:hover {
+    background: rgba(0,0,0,.5);
+    border-color: rgba(255,255,255,.35);
+}
+
+.reaction-2A2y9y.reactionMe-3I9gFK:hover {
+    background: rgba(255,255,255,.15);
 }
